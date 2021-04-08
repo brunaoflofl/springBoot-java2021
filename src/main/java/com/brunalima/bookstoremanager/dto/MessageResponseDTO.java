@@ -1,2 +1,11 @@
-package com.brunalima.bookstoremanager.dto;public class MessageResponseDTO {
+package com.brunalima.bookstoremanager.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class MessageResponseDTO {
+
+    private String message;
 }
